@@ -10,3 +10,9 @@
 - however, chemical reactions can happen inside reservoir, so can't assume conservation of stuff
 - however, what if *in the simulation* we put in some inert made up materials,
 different kinds in different inputs, just to see where they end up. could that give us a better idea of the connections? maybe the stuff isn't conserved in the simulation?
+
+## data conversion
+```python
+np.savetxt('edge_incidence.txt', As.toarray(), fmt='%d')
+np.savetxt('node_flows.txt', f, fmt='%.10f')
+```
