@@ -1,6 +1,4 @@
-# reservoir flow problem from margot
-
-## model
+# reservoir flow problem
 
 ## broader understanding questions
 - does the simulation not conserve mass of the input?
